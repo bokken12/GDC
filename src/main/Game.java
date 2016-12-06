@@ -9,9 +9,9 @@ import sprites.Sprite;
 
 public class Game {
 	
-	static Game instance;
-	Main main;
-	List<Sprite> sprites = new ArrayList<Sprite>();
+	public static Game instance;
+	private Main main;
+	private List<Sprite> sprites = new ArrayList<Sprite>();
 	
 	public Game(){
 		instance = this;
